@@ -3,7 +3,7 @@ import { render } from 'react-testing-library';
 import 'react-testing-library/cleanup-after-each';
 import Dashboard from './Dashboard';
 
-describe('Dashboard component tests', () => {
+describe('<Dashboard/>', () => {
 	it('should render controls and display', () => {
 		const { getByText } = render(<Dashboard />);
 
